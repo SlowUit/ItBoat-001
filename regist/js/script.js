@@ -1,0 +1,20 @@
+$('.zar').click(function(){
+    $('#sing').toggle()
+    $('#register').show()
+    $('.avt').css({
+        'color':'white'
+    })
+    $('.zar').css({
+        'color':'#1ACDD5'
+    })
+})
+$('.avt').click(function(){
+    $('#sing').show()
+    $('#register').toggle()
+    $('.avt').css({
+        'color':'#1ACDD5'
+    })
+    $('.zar').css({
+        'color':'white'
+    })
+})

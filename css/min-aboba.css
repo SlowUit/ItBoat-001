@@ -1,0 +1,330 @@
+
+
+@media only screen and (max-width: 992px){
+h1{
+  font-size: 3em; 
+}
+h3{
+   font-size: 2em;
+}
+.htext-bot {
+    
+    font-size: 37px;
+    
+}
+.text-bot {
+    font-size: 35px;
+}
+
+.new {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.bantext {
+   
+   font-size: 14px;
+}
+.bantext {
+    padding: 25% 45% 25% 60px;
+    background-color: rgba(48, 48, 48,0.5);
+    color: rgba(255, 255, 255,1);
+    max-width: 50%;
+    display: flex;
+    border-radius: 0.2em;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.bantxt {
+   font-size: 14px;
+}
+#txt{
+   font-size: 330%;
+}
+.text1 {
+   max-width: 100%;
+} 
+.text2 {
+   padding: 30px 30px 30px 30px;
+   color: #EAD8F8;
+}
+.img{
+  width: 750px; 
+  height: 430px;
+}
+.but1 {
+  margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+} 
+.but2 {
+  margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}  
+ .button {
+   font-size: 55px;
+}  
+.imglogo {
+   width: 55px;
+   height: 55px;
+}  
+.imglogot{
+   width: 65px;
+   height: 65px;
+}
+.ftxt1 {
+   
+   font-size: 25px;
+}   
+
+.ftxt {
+   font-size: 30px;
+   padding: 0Em 3Em 0Em 3Em;
+}   
+   
+.input{
+   padding: 0em 3em 0em 3em;
+   
+}   
+.pass {
+    
+    color: #ffffff;
+    
+    width: 60em;
+    height: 2em;
+}   
+::-webkit-input-placeholder { /* Chrome */
+  color: #d4d4d4;
+  transition: opacity 250ms ease-in-out;
+  font-size: 1.5em;
+}   
+
+.send {
+   width: 14em;
+   height: 3em;
+   font-size: 1.4em;
+}   
+.text3 {
+    padding: 0px 60px 0px 60px;
+    color: #EAD8F8;
+    max-width: 105%;
+}   
+.mbutton {
+height: 30em;
+}
+.txt {
+    font-size: 40px;
+    margin: 15px 0px;
+}
+.txtp{
+   font-size: 22px;
+   margin: 15px 0px;
+}
+.txt1 {
+    font-size: 35px;
+}
+
+.topmenu-min{
+   display: flex;
+   /* тег отвечает за отцетровку(центр)*/
+   justify-content: flex-end;
+   align-items: center;
+}
+.topmenu{
+  display: none;
+}
+
+
+
+ .kateg-min{
+  display: none;
+  justify-content: space-evenly;
+}
+  
+  .kateg:nth-child(3){
+    
+    display: flex;
+    
+  }
+  .kateg:nth-child(4){
+    
+    display: flex;
+    
+  }  
+}
+
+   
+  @media (min-width: 992px) and (max-width: 1145px){
+  .topmenu-min{
+   display: none;
+}
+  .topmenu{
+   display: flex;
+   /* тег отвечает за отцетровку(центр)*/
+   justify-content: center;
+   align-items: center;
+}  
+    .it-min{
+      display: none;
+      
+    }
+    .but-min{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    
+  }
+  
+@media (min-width: 992px) and (max-width: 1531px){
+  .topmenu-min{
+   display: none;
+}
+  .topmenu{
+   display: flex;
+   /* тег отвечает за отцетровку(центр)*/
+   justify-content: center;
+   align-items: center;
+}  
+.kateg-min{
+  display: flex;
+  justify-content: space-evenly;
+}
+  
+  .kateg:nth-child(3){
+    
+    display: none;
+    
+  }
+  .kateg:nth-child(4){
+    
+    display: none;
+    
+  }
+}  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+@media only screen  and (min-width: 1224px) {
+  .topmenu-min{
+   display: none;
+}
+  .topmenu{
+   display: flex;
+   /* тег отвечает за отцетровку(центр)*/
+   justify-content: center;
+   align-items: center;
+}  
+.ftxt {
+    font-size: 14px;
+}
+.pass {
+  
+    width: 32em;
+    height: 25px;
+}
+.send {
+   width: 11em;
+    height: 3em;
+    font-size: 15px;
+}
+
+
+
+
+
+
+}
+@media only screen and (min-width: 1531px){
+
+}
+/* Большие экраны ----------- */
+@media only screen  and (min-width: 1824px) {
+/* стили */
+}
+
+@media only screen and (min-device-width: 2560px) {
+  .topmenu-min{
+   display: none;
+}
+  .topmenu{
+   display: flex;
+   /* тег отвечает за отцетровку(центр)*/
+   justify-content: center;
+   align-items: center;
+}  
+.bantext {
+   max-width: 40%;
+   font-size: 24px;
+   
+}
+
+.text {
+  
+    font-size: 21px;
+}
+.text2 {
+    
+    font-size: 23px;
+}
+.text3 {
+     max-width: 100%;
+    font-size: 21px;
+}
+.new {
+    
+    font-size: 21px;
+}
+
+
+
+
+.ftxt {
+    
+    font-size: 12px;
+}
+.pass {
+    
+    color: #ffffff;
+    
+    width: 43em;
+    height: 2em;
+}   
+::-webkit-input-placeholder { /* Chrome */
+  color: #d4d4d4;
+  transition: opacity 250ms ease-in-out;
+  font-size: 1.2em;
+} 
+.send {
+   width: 14em;
+   height: 3em;
+   font-size: 1.2em;
+}  
+.imglogo {
+   width: 55px;
+   height: 55px;
+}  
+.ftxt1 {
+   
+   font-size: 22px;
+}    
+.footlink {
+    margin: 15px 30px 3px 30px;
+}   
+  
+   
+   
+   
+   
+}

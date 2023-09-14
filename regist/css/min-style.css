@@ -1,0 +1,56 @@
+@media only screen and (max-width: 992px){
+.form__user {
+    font-size: 19px;
+
+    text-align: center;
+    background-color: #1e1f21;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    width: 330px;
+    height: 320px;
+
+    margin-top: 3%;
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-right: 2%;
+
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+}
+.form__napr {  
+   
+    margin-left: 0px;
+
+}
+.form__napr label {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 100%;
+    display: inline;
+}
+ .form_napr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+}  
+.form__user input[type="email"], .form__user input[type="password"] {
+    width: 238px;
+    
+    padding-right: 0px;
+    padding-left: 3%;
+    padding-top: 0px;
+
+
+}   
+ .form_napr1  {
+    
+    margin-left: 0px;
+
+ }
+}
+.avt .zar{
+   font-size: 105%;
+}

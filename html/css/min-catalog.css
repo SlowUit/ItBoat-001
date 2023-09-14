@@ -1,0 +1,159 @@
+@media only screen and (max-width: 992px){
+    
+    .header{
+      font-size: 25px;
+    }
+    .svgs{
+      width: 50pt;
+      height: 50pt;
+    }
+    .svg{
+      width: 80pt;
+      height: 80pt;
+    }
+    .svgp{
+      width: 50pt;
+      height: 50pt;
+    }
+    .top .submenut:nth-child(1) {
+    
+    padding: 3%;
+}
+    .top .submenut:nth-child(2) {
+    
+    padding-right: 40.5%;
+}
+    
+    .kat-min{
+    
+    
+    display: none;
+  }
+ .but1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+  .img{
+  width: 750px; 
+  height: 430px;
+  border-radius: 1.6em;
+}
+ .kateg{
+ height: 43em;
+ padding: 0;
+ border-radius: 2.2em;
+ }
+ .button{
+   padding: 0;
+ }
+ .txt {
+    font-size: 24px;
+    
+}
+ /*.txt br{
+    display: none;
+    
+}*/
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1160px){
+  .kat-min{
+    display: flex;
+    justify-content: center;
+  }
+ #kateg{
+   display: none;
+ }
+  
+  
+  
+}
+@media only screen and (min-device-width: 1161px) {
+.kat-min{
+    display: none;
+  }
+  
+}
+
+@media only screen and (min-device-width: 2560px) {
+
+.but1 {
+    margin: 50px 10px 50px 10px;
+   
+}
+
+.bantext {
+   max-width: 40%;
+   font-size: 24px;
+   
+}
+
+.text {
+  
+    font-size: 21px;
+}
+.text2 {
+    
+    font-size: 23px;
+}
+.text3 {
+    
+    font-size: 21px;
+}
+.new {
+    
+    font-size: 21px;
+}
+
+
+
+
+.ftxt {
+    
+    font-size: 12px;
+}
+.pass {
+    
+    color: #ffffff;
+    
+    width: 43em;
+    height: 2em;
+}   
+::-webkit-input-placeholder { /* Chrome */
+  color: #d4d4d4;
+  transition: opacity 250ms ease-in-out;
+  font-size: 1.2em;
+} 
+.send {
+   width: 14em;
+   height: 3em;
+   font-size: 1.2em;
+}  
+.imglogo {
+   width: 55px;
+   height: 55px;
+}  
+.ftxt1 {
+   
+   font-size: 22px;
+}    
+.footlink {
+    margin: 15px 30px 3px 30px;
+}   
+.text3 {
+   max-width: 40%;
+}   
+   
+   
+   
+   
+   
+   
+   
+   
+}
